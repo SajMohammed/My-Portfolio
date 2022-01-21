@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem 6rem;
+
+    /* To adjust the logo size with the Header components */
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .portfolio__navbar-links{
