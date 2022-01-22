@@ -1,0 +1,23 @@
+.folio__skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folio__skills div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.folio__skills div img {
+    width: 7%;
+    height: 7%;
+}
+
+.folio__skills-title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 52px;
+}
