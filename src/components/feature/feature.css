@@ -20,6 +20,9 @@
     line-height: 30px;
     letter-spacing: -0.04em;
     color: #FFFFFF;
+
+    /* Adding the width for alignment correction with the heading */
+    width: 11vw;
 }
 
 .folio__features-container__feature-title div {

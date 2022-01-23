@@ -21,3 +21,19 @@
     font-weight: 800;
     font-size: 52px;
 }
+
+@media screen and (max-width: 550px) {
+    .folio__skills div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .folio__skills div img {
+        margin: 0;
+        padding: 0;
+        width: 10vw;
+        height: 10vh;
+    }
+}
