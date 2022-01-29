@@ -14,6 +14,12 @@
 .folio__skills div img {
     width: 7%;
     height: 7%;
+    transition: 0.5s ease-in-out;
+}
+
+.folio__skills div img:hover {
+    width: 12%;
+    height: 12%;
 }
 
 .folio__skills-title {

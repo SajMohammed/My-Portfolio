@@ -22,6 +22,15 @@
 
 .folio__connect-content img{
     cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.folio__connect-content img:hover{
+    cursor: pointer;
+    width: 130%;
+    height: 130%;
 }
 
 .folio__connect-content h1 {
