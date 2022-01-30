@@ -1,0 +1,73 @@
+.folio__resume {
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin:6rem;
+    padding:2rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+}
+
+.folio__resume-content h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 3rem;
+
+    color: #000000;
+}
+
+.folio__resume-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folio__resume-button button {
+    background: #000000;
+    color: white;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    min-width: 150px;
+    transition: border-color 0.4s, background-color 0.4s, color 0.4s
+}
+
+.folio__resume-button button:hover {
+    background: white;
+    color: black;
+}
+@media screen and (max-width: 650px) {
+    .folio__resume {
+        flex-direction: column;
+    }
+
+    .folio__resume-button {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .folio__resume {
+        margin: 4rem 2rem;
+    }
+
+    .folio__resume-content h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .folio__resume-button button {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

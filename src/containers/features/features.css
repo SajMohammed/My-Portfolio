@@ -47,6 +47,10 @@
     .folio__features-heading {
         margin: 0 0 2rem 0;
     }
+
+    .folio__features-container__feature {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -55,3 +59,4 @@
         line-height: 38px;
     }
 }
+
